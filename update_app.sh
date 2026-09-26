@@ -8,7 +8,7 @@ cd "$APP_DIR"
 
 export GIT_SSH_COMMAND="ssh -i /home/azureuser/.ssh/github_deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
 
-git pull --ff-only origin main
+git pull --ff-only origin master
 
 docker compose pull
 
