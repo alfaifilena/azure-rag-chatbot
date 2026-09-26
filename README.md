@@ -1,4 +1,5 @@
 # ☁️ Azure RAG Chatbot
+[![Build and Deploy](https://github.com/alfaifilena/azure-rag-chatbot/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/alfaifilena/azure-rag-chatbot/actions/workflows/deploy.yml)
 
 A cloud-based Retrieval-Augmented Generation (RAG) chatbot built and deployed on Microsoft Azure.
 
