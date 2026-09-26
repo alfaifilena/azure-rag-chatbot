@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+openai
+python-dotenv
+psycopg2-binary
+python-multipart
+pypdf
+chromadb
+langchain-chroma
+langchain-classic
+langchain-community
+langchain-openai
+langchain-text-splitters
+azure-storage-blob

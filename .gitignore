@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+
+# SSH private keys
+terraform/ssh-keys/*
+!terraform/ssh-keys/*.pub
+
+# Local application data
+chat_logs/
+pdf_store/
+uploaded_pdfs/
+chroma_db/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
